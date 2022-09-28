@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #834d0c;
+}
+
+.banner {
+    margin-top: 75px;
+    width: 100vw;
+    height: 150px;
+    background-color: #543107;
+    opacity: .6;
+}
+
+.logo {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.eventos {
+    height: 80%;
+    width: 100vw;
+    border: 2px solid red;
+    position: absolute;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eventos h1, p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.serveja {
+    border: 2px solid green;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.serveja img {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.lupulando {
+    border: 2px solid green;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.lupulando img {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.bauernfest {
+    border: 2px solid green;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.bauernfest img {
+    height: 250px;
+    border-radius: 10px;
+}
