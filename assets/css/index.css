@@ -1,7 +1,6 @@
 @import "/assets/css/global.css"; 
 @import "./navbar.css";
-
-
+@import "./footer.css";
 .links {
     margin-top: 3rem;
 }

@@ -11,6 +11,7 @@
 }
 
 body{
+    /* position: ; */
     background: url("/assets/images/campo-de-trigo.png");
     background-clip: border-box;
 }
