@@ -1,17 +1,22 @@
-var btn = document.querySelectorAll(".botao");
+var btn = document.getElementById("button-up");
+btn.addEventListener("click", topoPagina);
 
-btn.forEach(element => {
-    element.addEventListener("click",topoPagina)
-});
 
 function topoPagina() {
     window.scrollTo(0,0);
 }
 
-// btn.addEventListener("click",topoPagina);
+let scrollPosition = 0;
+document.addEventListener('scroll', (e) => {
+    scrollPosition = window.scrollY
+    revelaBotao(scrollPosition)
+})
 
-
-// var resposta = await fetch ('https://api.github.com/users/' + usuario);
-// var answer = await resposta.json();
-// console.log(answer);
-
+function revelaBotao(scrollPos) {
+    if (scrollPos > 1000) {
+        btn.style.visibility = "visible";
+    }
+    else {
+        btn.style.visibility = "hidden";
+    }
+}

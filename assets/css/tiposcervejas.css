@@ -1,9 +1,31 @@
+@import "/assets/css/bootstrap.min.css";
+
 @import "./navbar.css";
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Dirt&display=swap');/* Fontes:: Rubik Dirt, */
 
 *{
     padding: 0;
     margin: 0;
+}
+
+#button-up {
+    visibility: hidden;
+    position: fixed;
+    background-color: rgba(84, 49, 7, 0.9);
+    width: 5em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    bottom: 2em;
+    right: 2em;
+    transition: all .25s;
+}
+#button-up img {
+    filter: invert(87%) sepia(35%) saturate(3620%) hue-rotate(344deg) brightness(96%) contrast(94%);
 }
 
 body{
@@ -52,32 +74,50 @@ nav li{
 }
 
 .cervejasInfo{
-    /* border: 2px solid green; */
     display: flex;
-    height: 50em;
+
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
+    padding-top: 2em;
 }
 
-.imagemCerveja{
-    /* border: 2px solid red; */
-    width: 30vw;
-    height: 350px;
-    display: flex;
-    justify-content: center;
+.info-wrapper {
+    background-color: rgba(0, 0, 0, .65);
+    border-radius: 25px;
+    width: 100%;
 }
 
-.cerveja{
-    margin-left: 1em;
-    /* border: 2px solid blue; */
-    width: 50vw;
-    height: 350px;
-    display: flex;
+.cerveja-wrapper {
+    padding: 1em;
     color: white;
 }
+.cerveja-wrapper h3, h5 {
+    font-family: "Rubik Dirt", sans-serif;
+
+}
+
+.cerveja-wrapper p {
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+.imagemCerveja{
+    width: 100%;
+    aspect-ratio: 1.8;
+    /* object-fit: ; */
+    display: flex;
+    justify-content: center;
+    margin: 0 1em 1em 0;
+    border-radius: 25px;
+}
+
 
 .cerveja-link {
-    font-family: "Rubic Dirt", sans-serif;
+    font-family: "Rubik Dirt", sans-serif;
+}
+
+.cerveja-link:hover {
+    color:yellow;
 }
 
 .botao{
@@ -97,4 +137,17 @@ nav li{
 
 html{
     scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+    .imagemCerveja {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    #button-up {
+        visibility: visible;
+    }
 }
