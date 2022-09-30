@@ -37,16 +37,17 @@ body{
     height: 100vh;
 }
 .quadradomenu{
-    margin-top: 150px;
+    margin-top: 2em;
     /* border: 2px solid blue; */
     width: 80vw;
-    height: 450px;
+    height: 70%;
     /* background-color: #543107; */
     /* opacity: .6; */
     display: flex;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(101, 61, 15, .65);
+    border-radius: 15px;
 }
 
 nav ul{
