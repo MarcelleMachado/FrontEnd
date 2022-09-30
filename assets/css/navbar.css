@@ -15,5 +15,21 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.03); 
+}
+
+.grow2 { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow2:hover { 
+    transform: scale(1.1); 
+}
