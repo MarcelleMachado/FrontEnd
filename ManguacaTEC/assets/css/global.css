@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Dirt&display=swap');/* Fontes:: Rubik Dirt, */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    
+    --color-primary: #543107;
+    --primary-transparent: rgba(101, 61, 15, .7);
+}
