@@ -30,9 +30,7 @@
 }
 
 body{
-    background-image: url("/assets/images/campo-de-trigo.png");
-    background-repeat: no-repeat;
-    background-color: rgba(101, 61, 15, .9);
+    background-color: rgba(101, 61, 15, .75);
     width: 100vw;
     height: 100vh;
 }
@@ -75,7 +73,7 @@ nav li{
     height: 15em;
 }
 
-.cervejasInfo{
+.eventosInfo{
     display: flex;
 
     justify-content: center;
@@ -85,25 +83,25 @@ nav li{
 }
 
 .info-wrapper {
-    background-color: rgba(101, 61, 15, .98);
+    background-color: rgba(101, 61, 15, .9);
     border-radius: 25px;
     width: 100%;
 }
 
-.cerveja-wrapper {
+.evento-wrapper {
     padding: 1em;
     color: white;
 }
-.cerveja-wrapper h3, h5 {
+.evento-wrapper h3, h5 {
     font-family: "Rubik Dirt", sans-serif;
 
 }
 
-.cerveja-wrapper p {
+.evento-wrapper p {
     font-family: "Segoe UI";
     font-weight: 500;
 }
-.imagemCerveja{
+.imagemEvento {
     width: 100%;
     aspect-ratio: 1.8;
     /* object-fit: ; */
@@ -114,11 +112,11 @@ nav li{
 }
 
 
-.cerveja-link {
+.evento-link {
     font-family: "Rubik Dirt", sans-serif;
 }
 
-.cerveja-link:hover {
+.evento-link:hover {
     color:yellow;
 }
 
@@ -142,7 +140,7 @@ html{
 }
 
 @media screen and (min-width: 768px) {
-    .imagemCerveja {
+    .imagemEvento {
         width: 50%;
     }
 
