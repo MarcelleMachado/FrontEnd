@@ -13,7 +13,7 @@ document.addEventListener('scroll', (e) => {
 })
 
 function revelaBotao(scrollPos) {
-    if (scrollPos > 1000) {
+    if (scrollPos > 500) {
         btn.style.visibility = "visible";
     }
     else {

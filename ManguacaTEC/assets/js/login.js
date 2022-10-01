@@ -14,10 +14,16 @@ document.getElementById("enterBtn").onclick = async() => {
     verificacao.forEach(element => {
         console.log(element.aluno);        
         if( element.aluno === usuario && element.senha === senha){
-                error = false;
-                localStorage.setItem("Jogador", element.aluno);
-                localStorage.setItem("json",verificacao);
-                window.location.href = '/pages';
+                if(element.idade >= 18){
+                        error = false;
+                        localStorage.setItem("Usuario", element.aluno);
+                        localStorage.setItem("json",verificacao);
+                        window.location.href = "../pages/links.html";
+                }
+                else{
+                        error = false;
+                        alert('Usuário menor de idade');
+                }
         }})
         if(error){
         alert('Login ou senha invalidos');
