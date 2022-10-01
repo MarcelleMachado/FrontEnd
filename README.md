@@ -12,7 +12,7 @@
 - `BOOTSTRAP `
 - `VSCode `
 
-## Equipe do trabalho (ManguecaTEC):
+## Equipe do trabalho (ManguacaTEC):
 
 | [<img src="https://avatars.githubusercontent.com/u/72474294?v=4" width=115><br><sub>Breno Leonardo Ferreira de Paula</sub>](https://github.com/BrenoLeonardo) |  [<img src="https://avatars.githubusercontent.com/u/110869919?v=4" width=115><br><sub>João Pedro Macedo dos Santos</sub>](https://github.com/JoaoPedroMS01) |  [<img src="https://avatars.githubusercontent.com/u/69130377?v=4" width=115><br><sub>Leonardo de Almeida Ammon</sub>](https://github.com/unamon) |  [<img src="https://avatars.githubusercontent.com/u/110869578?v=4" width=115><br><sub>Marcelle Rebello Machado</sub>](https://github.com/MarcelleMachado) |  [<img src="https://avatars.githubusercontent.com/u/110869577?v=4" width=115><br><sub>Paulo Gordon Petersen</sub>](https://github.com/PauloPetersen) | 
 | :---: | :---: | :---: | :---: | :---: |
